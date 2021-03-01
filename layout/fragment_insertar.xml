@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo3">
+
+    <EditText
+        android:id="@+id/nombre"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Nombre"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="30dp"/>
+
+    <ImageView
+        android:id="@+id/portada"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon"
+        android:adjustViewBounds="true"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/insertar"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:backgroundTint="#FD9215"
+        android:text="INSERTAR"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="80dp"
+        android:layout_marginTop="50dp"/>
+
+</LinearLayout>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CarrerasFragment">
+
+    <com.google.android.material.circularreveal.cardview.CircularRevealCardView
+
+        android:id="@+id/Carrera1"
+        android:layout_width="200dp"
+        android:layout_height="200dp">
+
+        <Button
+            android:id="@+id/elbesos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:text="REGISTRADO"
+            android:backgroundTint="#99cc00"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="-35dp"
+            android:src="@drawable/besos" />
+
+    </com.google.android.material.circularreveal.cardview.CircularRevealCardView>
+    <com.google.android.material.circularreveal.cardview.CircularRevealCardView
+
+        android:id="@+id/Carrera2"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="5dp"
+        >
+
+        <Button
+            android:id="@+id/montblanc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+
+            android:text="NO REGISTRADO"
+            android:backgroundTint="@color/orange_600"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="236dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="-35dp"
+            android:src="@drawable/mont" />
+
+    </com.google.android.material.circularreveal.cardview.CircularRevealCardView>
+    <com.google.android.material.circularreveal.cardview.CircularRevealCardView
+
+        android:id="@+id/Carrera3"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="-405dp"
+        android:layout_marginTop="215dp"
+        >
+
+        <Button
+            android:id="@+id/prehistoria"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:text="NO REGISTRADO"
+            android:backgroundTint="@color/orange_600"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="-35dp"
+            android:src="@drawable/prehistorica" />
+
+    </com.google.android.material.circularreveal.cardview.CircularRevealCardView>
+    <com.google.android.material.circularreveal.cardview.CircularRevealCardView
+
+        android:id="@+id/Carrera4"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="215dp"
+        >
+
+        <Button
+            android:id="@+id/paseo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+
+            android:text="NO REGISTRADO"
+            android:backgroundTint="@color/orange_600"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="187dp"
+            android:layout_marginTop="-35dp"
+            android:src="@drawable/paseomari" />
+
+    </com.google.android.material.circularreveal.cardview.CircularRevealCardView>
+    <com.google.android.material.circularreveal.cardview.CircularRevealCardView
+
+        android:id="@+id/Carrera5"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="-403dp"
+        android:layout_marginTop="430dp"
+        >
+
+        <Button
+            android:id="@+id/comus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+
+            android:text="NO REGISTRADO"
+            android:backgroundTint="@color/orange_600"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="215dp"
+            android:layout_height="187dp"
+            android:layout_marginTop="-35dp"
+            android:src="@drawable/comus" />
+
+    </com.google.android.material.circularreveal.cardview.CircularRevealCardView>
+    <com.google.android.material.circularreveal.cardview.CircularRevealCardView
+
+        android:id="@+id/Carrera6"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="430dp"
+        >
+
+        <Button
+            android:id="@+id/proximamente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:textColor="@color/orange_600"
+            android:text="PROXIMAMENTE"
+            android:backgroundTint="@color/orange_600"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="187dp"
+            android:layout_marginTop="-35dp"
+            android:src="@drawable/prox" />
+
+    </com.google.android.material.circularreveal.cardview.CircularRevealCardView>
+
+</LinearLayout>

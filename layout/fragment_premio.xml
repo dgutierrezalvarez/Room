@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo3">
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ENHORABUENA"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:textSize="26dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HAS CONSEGUIDO:"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+
+    <Button
+        android:id="@+id/reclamar"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:backgroundTint="#FD9215"
+        android:text="RECLAMAR"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="500dp"/>
+
+
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="-550dp"
+        app:srcCompat="@drawable/km" />
+
+        <TextView
+            android:id="@+id/edit_area"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="7,30km"
+            android:textSize="30dp"
+            android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/crono" />
+
+        <TextView
+            android:id="@+id/edit_area2"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="00:30:00"
+            android:textSize="30dp"
+            android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/puntos" />
+
+        <TextView
+            android:id="@+id/edit_area3"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="15000px"
+            android:textSize="30dp"
+            android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/medalla" />
+    <ImageView
+        android:id="@+id/edit_area4"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="90dp"
+        app:srcCompat="@drawable/medallabronce" />
+    <ImageView
+        android:id="@+id/edit_area5"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="-40dp"
+        android:layout_marginLeft="167dp"
+        app:srcCompat="@drawable/medallaplata" />
+    <ImageView
+        android:id="@+id/edit_area6"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="-40dp"
+        android:layout_marginLeft="240dp"
+        app:srcCompat="@drawable/medallaoro" />
+
+
+
+
+</LinearLayout>
